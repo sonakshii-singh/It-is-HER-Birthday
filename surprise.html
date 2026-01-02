@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Surprise 🎂</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="balloons">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<div class="container">
+  <h1>Make a Wish ✨</h1>
+
+  <img src="images/cake.png" width="300" onclick="blow()">
+  <p>(Click the cake to blow candles)</p>
+
+  <h2 id="wish"></h2>
+
+  <a href="index.html">⬅ Back</a>
+</div>
+
+<script>
+function blow() {
+  document.getElementById("wish").innerHTML =
+  "🎉 Candles Blown! May all your dreams come true 💕";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Make a Wish</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgMusic" src="music.mp3" loop></audio>
+<button class="music-btn" onclick="toggleMusic()">♪</button>
+<div class="balloons">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<div class="page center">
+  <h1>Make a Wish</h1>
+  <p class="subtitle">Blow gently to turn off the candles</p>
+
+  <div class="cake">
+    <div class="candles">
+      <div class="candle"><div class="flame"></div></div>
+      <div class="candle"><div class="flame"></div></div>
+      <div class="candle"><div class="flame"></div></div>
+      <div class="candle"><div class="flame"></div></div>
+    </div>
+
+    <div class="cake-top"></div>
+    <div class="cake-middle"></div>
+    <div class="cake-bottom"></div>
+  </div>
+
+  <p id="wishText"></p>
+
+  <a href="index.html" class="btn small">← Back</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
